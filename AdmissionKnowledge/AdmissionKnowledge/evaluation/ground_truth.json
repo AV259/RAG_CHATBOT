@@ -1,0 +1,98 @@
+[
+  {
+    "query": "What is the application process?",
+    "relevant": {
+      "fixed": ["fixed_1", "fixed_2", "fixed_3", "fixed_4", "fixed_5", "fixed_6"],
+      "section": ["section_1", "section_2"],
+      "hybrid": ["hybrid_1", "hybrid_2", "hybrid_3", "hybrid_4", "hybrid_5", "hybrid_6"]
+    }
+  },
+  {
+    "query": "Which documents are required for applying?",
+    "relevant": {
+      "fixed": ["fixed_1", "fixed_2"],
+      "section": ["section_1"],
+      "hybrid": ["hybrid_1", "hybrid_2"]
+    }
+  },
+  {
+    "query": "What are the requirements to be admitted for MSc Data Science?",
+    "relevant": {
+      "fixed": ["fixed_21", "fixed_22"],
+      "section": ["section_10"],
+      "hybrid": ["hybrid_20", "hybrid_21"]
+    }
+  },
+  {
+    "query": "What is eligibility assessment process?",
+    "relevant": {
+      "fixed": ["fixed_7", "fixed_8"],
+      "section": ["section_3"],
+      "hybrid": ["hybrid_7", "hybrid_8"]
+    }
+  },
+  {
+    "query": "What are the language requirements for masters in data science program?",
+    "relevant": {
+      "fixed": ["fixed_22"],
+      "section": ["section_10"],
+      "hybrid": ["hybrid_21"]
+    }
+  },
+  {
+    "query": "What are the scholarship opportunities?",
+    "relevant": {
+      "fixed": ["fixed_11"],
+      "section": ["section_4"],
+      "hybrid": ["hybrid_11"]
+    }
+  },
+  {
+    "query": "Give the information about the tuition fees?",
+    "relevant": {
+      "fixed": ["fixed_12"],
+      "section": ["section_5"],
+      "hybrid": ["hybrid_12"]
+    }
+  },
+  {
+    "query": "Which modules and courses will i study in msc data science?",
+    "relevant": {
+      "fixed": ["fixed_27"],
+      "section": ["section_14"],
+      "hybrid": ["hybrid_26"]
+    }
+  },
+  {
+    "query": "When is the application deadline?",
+    "relevant": {
+      "fixed": ["fixed_32"],
+      "section": ["section_19"],
+      "hybrid": ["hybrid_31"]
+    }
+  },
+  {
+    "query": "Which type of visa is needed for international students?",
+    "relevant": {
+      "fixed": ["fixed_6"],
+      "section": ["section_19"],
+      "hybrid": ["hybrid_13"]
+    }
+  },
+  {
+    "query": "How is Marburg city?",
+    "relevant": {
+      "fixed": ["fixed_17", "fixed_18"],
+      "section": ["section_7"],
+      "hybrid": ["hybrid_16", "hybrid_17"]
+    }
+  },
+  {
+    "query": "Whom to contact for more questions and doubts?",
+    "relevant": {
+      "fixed": ["fixed_26"],
+      "section": ["section_13"],
+      "hybrid": ["hybrid_25"]
+    }
+  }
+]
