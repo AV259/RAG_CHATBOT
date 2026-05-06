@@ -16,24 +16,24 @@ Project Pipeline:
 
 1. Data Collection
 Admission-related webpages were scraped from the university website using Scrapy with:
--Controlled link following
--Ethical crawling practices
+ ,Controlled link following
+ ,Ethical crawling practices
 Domain restrictions
--Structured metadata collection
+ ,Structured metadata collection
 
 2. Data Cleaning & Processing
 The scraped data was cleaned and normalized by:
--Removing navigation menus, footer text, and irrelevant HTML content
--Classifying pages by content type
--Applying structured preprocessing for deadline-related pages
--Converting webpages into retrieval-ready text documents
+Removing navigation menus, footer text, and irrelevant HTML content
+ ,Classifying pages by content type
+ ,Applying structured preprocessing for deadline-related pages
+ ,Converting webpages into retrieval-ready text documents
 
 3. Chunking Strategies
 
 Three chunking strategies were designed and evaluated:
- Fixed Chunking — constant-size text chunks
- Section-Based Chunking — chunks aligned with webpage sections/headings
- Hybrid Chunking — combination of semantic structure and size constraints
+ Fixed Chunking: constant-size text chunks
+ Section-Based Chunking:chunks aligned with webpage sections/headings
+ Hybrid Chunking: combination of semantic structure and size constraints
 
 The chunking approaches were compared to identify the most retrieval-friendly structure.
 
