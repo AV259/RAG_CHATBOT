@@ -12,7 +12,7 @@ Features:
 - Grounded response generation using Qwen 2.5–7B
 - Interactive chatbot deployment using Streamlit
 
-# DEMO VIDEO
+# Demo Video
 
 
 https://github.com/user-attachments/assets/60b05d03-aac7-45b8-a650-efa023fa43b0
