@@ -3,10 +3,16 @@ import chromadb
 import numpy as np
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
+from pathlib import Path
 
 
-CHUNK_FILE = r"C:\Users\Akash Verma\AdmissionKnowledge\AdmissionKnowledge\chunk_outputs\chunks_hybrid.json"
-VECTOR_DB = r"C:\Users\Akash Verma\AdmissionKnowledge\AdmissionKnowledge\vectorstores\chroma_hybrid"
+#CHUNK_FILE = r"C:\Users\Akash Verma\AdmissionKnowledge\AdmissionKnowledge\chunk_outputs\chunks_hybrid.json"
+#VECTOR_DB = r"C:\Users\Akash Verma\AdmissionKnowledge\AdmissionKnowledge\vectorstores\chroma_hybrid"
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+CHUNK_FILE = BASE_DIR / "chunk_outputs" / "chunks_hybrid.json"
+VECTOR_DB = BASE_DIR / "vectorstores" / "chroma_hybrid"
 
 TOP_K = 3
 ALPHA = 0.5
