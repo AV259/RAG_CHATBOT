@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from Hybrid_retriever import HybridRetriever
+from Rag_pipeline.Hybrid_retriever import HybridRetriever
 
 
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
