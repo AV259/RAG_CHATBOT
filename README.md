@@ -10,7 +10,14 @@ Features:
 - Semantic search using MiniLM embeddings + ChromaDB
 - Evaluation of BM25, semantic, hybrid, and RRF retrieval methods
 - Grounded response generation using Qwen 2.5–7B
-- Interactive chatbot deployment using Streamlit on Hugging Face Spaces
+- Interactive chatbot deployment using Streamlit
+
+# DEMO VIDEO
+
+
+https://github.com/user-attachments/assets/60b05d03-aac7-45b8-a650-efa023fa43b0
+
+
 
 # Project Pipeline:
 
@@ -70,7 +77,6 @@ A carefully engineered system prompt was used to:
 # Deployment 
 The chatbot was deployed as an interactive web application using:
 - Streamlit
-- Hugging Face Spaces
 
 This enables real-time admission query answering through a simple user interface.
 
