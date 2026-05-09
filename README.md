@@ -14,6 +14,7 @@ Features:
 
 # Demo Video
 
+The Chatbot can be accessed here- https://unimind.streamlit.app/
 
 https://github.com/user-attachments/assets/60b05d03-aac7-45b8-a650-efa023fa43b0
 
